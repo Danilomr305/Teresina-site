@@ -1,0 +1,7 @@
+cores
+
+#fea50c
+#feb924
+#ffcd3b
+#ffe053
+#fff46b
