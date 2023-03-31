@@ -117,3 +117,32 @@ main strong {
 main img {
     width: 25%;
 }
+
+table {
+    border-collapse: collapse;
+
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(228, 228, 228);
+}
+
+footer {
+    background-color: var(--cor1);
+    font-family: var(--fonte-texto);
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
