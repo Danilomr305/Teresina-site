@@ -120,6 +120,9 @@ main img {
 
 table {
     border-collapse: collapse;
+    text-align: center;
+    display: block;
+    margin: auto;
 
 }
 
