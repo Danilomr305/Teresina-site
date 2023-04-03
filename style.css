@@ -102,6 +102,10 @@ main h2 {
     text-indent: 8px;
 }
 
+.normal {
+    margin-top: 20px;
+}
+
 main p {
     margin: 15px 0px;
     text-align: justify;
@@ -160,6 +164,7 @@ main tr:nth-child(even) {
 main ul {
     list-style-position: inside;
     columns: 2;
+    margin-bottom: 20px;
 }
 
 footer {
