@@ -125,11 +125,11 @@ iframe#tela {
     
 }
 
-table {
-    width:100%;
+main table {
+    width:78vw;
     border-collapse: collapse;
     border-radius: 0px 0px 5px 5px;
-
+    display: block;
 }
 
 caption {
@@ -138,9 +138,14 @@ caption {
     padding: 8px;
 }
 
-th, td {
+th {
     border: 1px solid black;
-    padding: 8px;
+    padding: 3px;
+} 
+
+td {
+    border: 1px solid black;
+    padding: 5px;
 }
 
 tr:nth-child(even) {
