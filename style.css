@@ -126,33 +126,37 @@ iframe#tela {
 }
 
 main table {
-    width:78vw;
+    width: 75vw;
     border-collapse: collapse;
     border-radius: 0px 0px 5px 5px;
     display: block;
 }
 
-caption {
+#container {
+    overflow-x: auto;
+}
+
+main caption {
     font-size: 1.2em;
     font-weight: bolder;
     padding: 8px;
 }
 
-th {
+main th {
     border: 1px solid black;
     padding: 3px;
 } 
 
-td {
+main td {
     border: 1px solid black;
     padding: 5px;
 }
 
-tr:nth-child(even) {
+main tr:nth-child(even) {
     background-color: rgba(228, 228, 228);
 }
 
-ul {
+main ul {
     list-style-position: inside;
     columns: 2;
 }
